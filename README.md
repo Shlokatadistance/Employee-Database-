@@ -1,6 +1,7 @@
-                          ENGG1340 (Computer Programming 2)
-                            Group Project (Group No 27)
-                              Staff Management System
+																				ENGG1340 (Computer Programming 2)
+																					Group Project (Group No 27)
+																					  Staff Management System
+
 Members: 
 Sinha Shlok (UID: 3035554256) and Shandilya Eeshaanee (UID: 3035552234)
 
