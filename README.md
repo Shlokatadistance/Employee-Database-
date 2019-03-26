@@ -45,9 +45,14 @@ e)	Address
 -	data sorted in terms of salary
 
 7.	User defined attributes (User inputs as to what attribute to be introduced type of attribute (int, str, bool))
-Ask for inputs for each employee
+Ask for inputs for each employee.
 
-8.	Exit (getting out of the while loop when a particular button is pressed)
+8. Another function of this program, which will be discussed before implementing, is the verification step, in which we will aim to assign each employee with a unique id , either a number or a combination of alphabets and numbers, which will let them enter the editing stage of the program. This serves as a security feature for the database, which in many ways is needed in the present world
+
+9.	Exit (getting out of the while loop when a particular button is pressed)
+
+10. Implement a master switch, which will allow the user to delete the entire database and allows him/her to start the database anew. 
+
 
 
 EXTRA NOTES:
@@ -56,3 +61,4 @@ How to modify the string (String operator) –
 1. Index the Entire employee directory
 2. Select the particular employee you want to modify
 3. Use (find) function to find what you need to modify ( you get back the index)
+4. We also aim to make use of the 'struct' functionality of C++, which will be a far easier and effiecient way of entering employee credentials. Struct will also make it possible to make 'pin-point' edits, as each credential will have its own unique name. 
