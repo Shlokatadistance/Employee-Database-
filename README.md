@@ -44,7 +44,7 @@ e)	Address
 6.	Salary caps (Input the range of the salary output the list of employees who earn within that range)
 -	data sorted in terms of salary
 
-7.	User defined attributes (User inputs as to what attribute to be introduced type of attribute (int, str, bool))
+7.	User defined attributes (User inputs as to what attribute to be introduced type of attribute (int, str, bool))
 Ask for inputs for each employee.
 
 8. Another function of this program, which will be discussed before implementing, is the verification step, in which we will aim to assign each employee with a unique id , either a number or a combination of alphabets and numbers, which will let them enter the editing stage of the program. This serves as a security feature for the database, which in many ways is needed in the present world
