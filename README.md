@@ -7,6 +7,12 @@ Sinha Shlok (UID: 3035554256) and Shandilya Eeshaanee (UID: 3035552234)
 
 Student Tutor: Mehra Tejasvi
 
+Problem Statement: To devise an employee management system for a company to be able to collect, store and record their employee's data which has basic features like adding, removing, editing the employee's data and also some other advanced features like searching for employees within a certain range etc. Additionally, there is a problem of calculating taxes and verification of details employees which the company has to look at. Through this project, we aim to come up with a solution of a basic employee management system with some unique features like calculating taxes.
+
+Problem Setting:
+
+Scope of the Project:
+
 Steps to follow in the project
 1.	To input all the data, we use arrays. Sorting can be done either on id or alphabetically. 
 2.	After giving in an input of employee details, display an option on the screen to show final employee list.
@@ -16,7 +22,7 @@ Project Plan:
 Menu--> execute as per user requirement--> Output/ edit as per requirement
 
 Menu Options (Use the switch function in a while loop for iteration):
-1.	To display the list of employees’ data (display another menu as to what to display all the options could also be selected)
+1.	To display the list of employees’ data (display another menu as to what to display all the options could also be selected)
 a)	ID
 b)	Role
 c)	Age
@@ -52,8 +58,6 @@ Ask for inputs for each employee.
 9.	Exit (getting out of the while loop when a particular button is pressed)
 
 10. Implement a master switch, which will allow the user to delete the entire database and allows him/her to start the database anew. 
-
-
 
 EXTRA NOTES:
 Procedure of modification – 
