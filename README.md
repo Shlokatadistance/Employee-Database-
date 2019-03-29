@@ -12,6 +12,9 @@ Steps to follow in the project
 2.	After giving in an input of employee details, display an option on the screen to show final employee list.
 3.	Array manipulation for carrying out the required tasks.
 
+Problem statement
+ To devise an employee management system for a company to be able to collect, store and record their employee's data which has basic features like adding, removing, editing the employee's data and also some other advanced features like searching for employees within a certain range etc. Additionally, there is a problem of calculating taxes and verification of details employees which the company has to look at. Through this project, we aim to come up with a solution of a basic employee management system with some unique features like calculating taxes.
+
 Project Plan:
 Menu--> execute as per user requirement--> Output/ edit as per requirement
 
