@@ -7,12 +7,6 @@ Sinha Shlok (UID: 3035554256) and Shandilya Eeshaanee (UID: 3035552234)
 
 Student Tutor: Mehra Tejasvi
 
-Problem Statement: To devise an employee management system for a company to be able to collect, store and record their employee's data which has basic features like adding, removing, editing the employee's data and also some other advanced features like searching for employees within a certain range etc. Additionally, there is a problem of calculating taxes and verification of details employees which the company has to look at. Through this project, we aim to come up with a solution of a basic employee management system with some unique features like calculating taxes.
-
-Problem Setting:
-
-Scope of the Project:
-
 Steps to follow in the project
 1.	To input all the data, we use arrays. Sorting can be done either on id or alphabetically. 
 2.	After giving in an input of employee details, display an option on the screen to show final employee list.
@@ -22,7 +16,7 @@ Project Plan:
 Menu--> execute as per user requirement--> Output/ edit as per requirement
 
 Menu Options (Use the switch function in a while loop for iteration):
-1.	To display the list of employees’ data (display another menu as to what to display all the options could also be selected)
+1.	To display the list of employees’ data (display another menu as to what to display all the options could also be selected)
 a)	ID
 b)	Role
 c)	Age
@@ -58,6 +52,10 @@ Ask for inputs for each employee.
 9.	Exit (getting out of the while loop when a particular button is pressed)
 
 10. Implement a master switch, which will allow the user to delete the entire database and allows him/her to start the database anew. 
+
+Scope of the Project and the Problem Setting
+THe above program has various applications, especially in organizations where efficient systems to manage data of the employees does not exist. Given the fact that even small scale companies can generate tremondous amounts of data, such a system will come in handy to these organizations. The data of the employees can be stored in txt files, which can be easily worked upon by this program. We are giving all the basic functionalities which are needed in the real world, such as data manipulation and sorting. In addition, there are some coding techniques, given in Extra notes, which we will try and implement, so that it makes the entire system more efficient and also user friendly. This program can be made use of small companies, which lack the capital or resources, to implement bigger databases, such that it makes their tasks easier. With a few more modifications, it can be implemented in relatively larger organizations. The aim is to keep the interface simply to understand and work upon.  
+
 
 EXTRA NOTES:
 Procedure of modification – 
