@@ -1,12 +1,14 @@
 #include <iostream>
-#include "Employee.h"
+//#include "Employee.h"
 #include <iomanip>
 #include <string.h>
 #include <fstream>
 #include<sstream>
+
+
 using namespace std;
 
-void Employee:: Salary_Caps()
+void Salary_Caps()
 //This function takes in two ranges of salaries and outputs all the salaries within that range.
 {
   //Salary caps (Input the range of the salary and output the list of employees who earn within that range)
@@ -41,7 +43,7 @@ void Employee:: Salary_Caps()
 
 
 
-void Employee:: Add_Attributes()
+void Add_Attributes()
 // This function allows the user to define an attribute and append it to the main data file. The attribute can be of string type.
 {
 
@@ -85,7 +87,7 @@ void Employee:: Add_Attributes()
 
 
 
-void Employee:: Add_Employee()
+void Add_Employee()
 ///This function enables the user to add an employee to the database and append the employee's credentials to the main data file
 {
 
@@ -120,7 +122,7 @@ void Employee:: Add_Employee()
 
 
 
-void Employee:: Deleting_Employee()
+void Deleting_Employee()
 {
   // This function is just another name for 'firing' an employee.
   //Remove the employee (to remove a specific row, we shall replicate all the data into a new file except the one to be removed and then delete the previous file and rename the existing one)
@@ -151,7 +153,7 @@ void Employee:: Deleting_Employee()
 }
 char s1[50];
 
-void Employee:: showDetails(void)
+void showDetails(void)
 //Displays all details according to Employee's id. The user types in an id and the program displays the employee's information.
 //This function is using c style of input and reading. We chose this method because the streaming method was not able to output any information after the 'strcmp' part.
 //The methods we are using the FILE pointer and using the scanf,fopen and fclose methods
@@ -199,10 +201,14 @@ void Employee:: showDetails(void)
                 }
             }
             fclose(file);
+
         }
 
 
-void Employee:: Display_All_Data()
+
+
+
+void Display_All_Data()
 //This is a basic function. It simply outputs all the information of the employees present in the data file onto the computer screen.
 {
   string my_line, name, id, age, role, gender, salary;
@@ -239,9 +245,7 @@ void Employee:: Display_All_Data()
       fin.close();
     }
 }
-
-
-void Employee:: Edit_Existing ()
+void Edit_Existing ()
 {
   string emp_name;
   cout<< "Enter the Employee name whose data is to be editted: ";
@@ -303,7 +307,7 @@ void killswitch(){
 
 }
 
-void Employee:: finalresolve()
+void finalresolve()
 {
   cout <<setw(10)<<"Enter your passcode" << endl;
   string x;
@@ -314,9 +318,7 @@ void Employee:: finalresolve()
   else
     cout << "access denied" << endl;
 }
-
-
-void Employee:: sorttheinitialarray(string *nameholder, int length)
+void sorttheinitialarray(string *nameholder, int length)
 //This function uses the concepts of dynamic memory allocation.
 //In this, a certain number of names from another file are read and are dynamically sorted.
 //This function works in conjunction with dynamicsorter.
@@ -334,7 +336,7 @@ void Employee:: sorttheinitialarray(string *nameholder, int length)
 		swap(nameholder[a], nameholder[c]);
 	}
 }
-void Employee:: dynamicsorter()
+void dynamicsorter()
 {
   cout << "The number of names to be sorted";
 	int length;
@@ -375,17 +377,20 @@ void Employee:: dynamicsorter()
 		//swap(length,count1);
 
 
+
+
+
  sorttheinitialarray(nameholder, length);
  cout << "The sorted list is";
  for (int i = 0; i < length; ++i)
 		cout << ": " << nameholder[i] << '\n';
-    //removing the unecessary nullptr from the array
  delete[] nameholder;
 }
 
 
-void Employee:: Options()
-{
+
+
+void Options(){
   //This function serves as the startup menu or page for the user.
   //The function makes use of switch functionality and keeps on asking for inputs utill the user enters 0 and goes out the loop
   //The setfill manipulator has also been made use of.
@@ -453,8 +458,13 @@ void Employee:: Options()
  }
 }
 
-int main()
-{
+int main(){
+  /*char name[50];
+  char id[5];
+  int age;
+  char role[20];
+  int salary;
+  char gender[8];*/
   Options();
   return 0;
 }

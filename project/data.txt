@@ -1,0 +1,4 @@
+Shlok	qwertyuiop 	18	Manager	Male 	20000
+Anna	3045637289	18	Manager	Female	19000
+Ben	6785968896	19	CEO	Male	45000
+henry	3455695030 	56	hgjgkg	Male	45678	
